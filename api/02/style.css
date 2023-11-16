@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}  
+
+body{
+    background: linear-gradient( #FDFDFD 4.2%, #FFCD9E 51.04%, rgba(255, 205, 158, 0.85) 60.94%, #52774E 82.29%, #52774E 100%);
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+svg:hover{
+    cursor: pointer;
+    fill: #2F7732;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);    
+}
+
+.top {
+    padding: 100px 0;
+    border-radius: 80px;
+    border: 1px solid var(--grey-100, #444343);
+    background:#FFFAF3;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.25);
+}
+
+.slider{    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.leftArrow {
+    width: 50px;
+    height: 50px; 
+    fill: #52774E;     
+    position: absolute; 
+    top: 50%; 
+    left: 50px; 
+}
+
+.rightArrow {
+    width: 50px;
+    height: 50px; 
+    fill: #52774E;        
+    position: absolute;
+    top: 50%; 
+    right: 50px; 
+}
+
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: block;    
+}
+
+.dots{    
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    fill: #52774E;   
+    height: 20px;
+}
+
+.dots svg {    
+    width: 20px;
+    height: 20px;    
+}
+
+.colorDot{
+    fill: #FFCD9E;
+}
+
+.dots {    
+    display: flex;
+    gap: 15px;
+    list-style-type: none;    
+}
